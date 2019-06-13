@@ -13,7 +13,7 @@
 	  <meta name="description" content="">
 	  <meta name="author" content="">
 	
-	  <title>Strictly Platonic </title>
+	  <title>Platonic </title>
 	
 	  <!-- Bootstrap core CSS -->
 	  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,10 +49,10 @@
             <a class="nav-link js-scroll-trigger" href="#profile">Profile</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#testimonial">Testimonial</a>
-          </li>
-          <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#testimonial">Testimonial</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#contact">Account</a>
@@ -76,7 +76,8 @@
             <a style="margin:40px;" href="/profile" class="btn btn-outline btn-xl js-scroll-trigger">Find Friends!</a>
           </div>
         </div>
-        <div class="col-lg-5 my-auto">
+        
+        <!-- <div class="col-lg-5 my-auto">
           <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 	    <ol class="carousel-indicators">
 	      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -85,21 +86,21 @@
 	    </ol>
 	    <div class="carousel-inner">
 	      <div class="carousel-item active">
-	        <img src="img/yosemite.jpg" class="d-block w-250" alt="hiking">
+	        <img src="img/hiking.jpeg" class="d-block w-150" alt="hiking">
 	        <div class="carousel-caption d-none d-md-block">
 	          <h5>Hiking</h5>
 	          <p>Enjoy a hike with a group.</p>
 	        </div>
 	      </div>
 	      <div class="carousel-item">
-	        <img src="img/bonfire.jpg" class="d-block w-250" alt="bonfire">
+	        <img src="img/bonfire.jpg" class="d-block w-150" alt="bonfire">
 	        <div class="carousel-caption d-none d-md-block">
 	          <h5>Bonfire</h5>
 	          <p> Have a bonfire at the beach.</p>
 	        </div>
 	      </div>
 	      <div class="carousel-item">
-	        <img src="img/concerts.jpg" class="d-block w-250" alt="concert">
+	        <img src="img/concert.jpeg" class="d-block w-150" alt="concert">
 	        <div class="carousel-caption d-none d-md-block">
 	          <h5>Concerts</h5>
 	          <p>Enjoy a concert with a new friend.</p>
@@ -115,18 +116,17 @@
 	      <span class="sr-only">Next</span>
 	    </a>
 	  </div>
-	</div>
-        </div>
-      </div>
+	</div> -->
+    <!--     </div>
+      </div> -->
 
   </header>
   
-  <section style="background-image: url('img/yellow.jpg'); background-size:cover;"class="profile bg-primary text-center" id="profile">
+  <section class="profile bg-primary text-center" id="profile">
     <div class="container">
       <div class="row">
         <div class="col-md-8 mx-auto">
           <h2 style="text-align:left;" class="section-heading">My Profile:</h2>
-  
           <p style="font-size: 16pt; margin:20px;"> I am:  <c:out value="${user.age}"/> years old and  I am from <c:out value="${user.city}"/>, <c:out value="${user.state}"/>.</p>
           <p style="font-size: 16pt; margin:20px;"> I like: <c:out value="${user.hobbies}"/></p>
           
@@ -139,7 +139,7 @@
 
   
 <!--  testimonials -->
-  <section style="background-image: url('img/purple.jpeg'); background-size:cover;" class="testimonial" id="testimonial">
+<!--   <section style="background-image: url('img/purple.jpeg'); background-size:cover;" class="testimonial" id="testimonial">
     <div class="container">
       <div style=  class="section-heading text-center">
         <h2 style="color: #586391;">Here's what people had said about this app!</h2>
@@ -168,7 +168,7 @@
         <a style="margin:40px 400px;" href="/coming" class="btn btn-outline btn-xl js-scroll-trigger">Try Now for Free!</a>
       </div>  
   
-    </section>
+    </section> -->
       
 
 
@@ -201,7 +201,7 @@
               <div class="col-md-4">
                 <div class="feature-item">
                   <h3 style="color:#FEE284; font-size:40pt;">Connect</h3>
-                  <p style="color:white; font-size:15pt;">Direct and group messaging</p>"/Users/jenny/Documents/WebFundamentals/algorithm_three.html"
+                  <p style="color:white; font-size:15pt;">Direct and group messaging</p>
                 </div>
               </div>     
             </div>
@@ -229,9 +229,7 @@
 
   <section class="contact bg-primary" id="account">
     <div class="container">
-      <h2>We
-        <i class="fas fa-heart"></i>
-        new friends!</h2>
+      <h2>Follow us here! </h2>
       <ul class="list-inline list-social">
         <li class="list-inline-item social-twitter">
           <a href="#">
@@ -254,7 +252,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; Nguyen 2019. All Rights Reserved.</p>
+      <p>&copy; Jenthewebdev 2019. All Rights Reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
           <a href="#">Privacy</a>

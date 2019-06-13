@@ -13,7 +13,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>FriendZone</title>
+  <title>Platonic</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -38,7 +38,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a style="font-size:25pt; font-family: Georgia;" class="navbar-brand js-scroll-trigger" href="#page-top">FriendZone</a>
+      <a style="font-size:25pt; font-family: Georgia;" class="navbar-brand js-scroll-trigger">Platonic</a>
       
     </div>
   </nav>
@@ -48,7 +48,7 @@
       <div class="row h-100">
         <div class="col-lg-5 my-auto">
           <div class="header-content mx-auto">
-            <h2 style="font-size:19pt;" >Register</h2>
+            <h2 style="font-size:19pt; margin: 20px;" >Register</h2>
 			<p><form:errors path="user.*"/></p>
 		
 		    <form:form method="POST" action="/registration" modelAttribute="user">
@@ -140,7 +140,7 @@
 
   <footer>
     <div class="container">
-      <p>&copy; Your New Friend App 2019. All Rights Reserved.</p>
+      <p>&copy; Jenthewebdev 2019. All Rights Reserved.</p>
       <ul class="list-inline">
         <li class="list-inline-item">
           <a href="#">Privacy</a>
